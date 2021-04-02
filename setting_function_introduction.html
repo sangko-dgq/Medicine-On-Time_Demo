@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		<title>服药提醒</title>
+		<title>帮助中心</title>
 		<script src="./css/js/mui.min.js"></script>
 		<link href="./css/css/mui.min.css" rel="stylesheet" />
 		<script type="text/javascript" charset="utf-8">
@@ -25,7 +25,7 @@
 		<link rel="stylesheet" type="text/css" href="./act_banner/css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="./act_banner/css/htmleaf-demo.css">
 		<link rel="stylesheet" href="./act_banner/css/style.css">
-<!-- TODO01 -->
+		<!-- TODO01 -->
 		<link rel="stylesheet" href="./css/css/style.css">
 
 	</head>
@@ -53,7 +53,7 @@
 						</li>
 						<li class="nav-item dropdown">
 
-							<a class="nav-link dropdown-toggle  active" href="#" id="navbarDropdown" role="button"
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
 								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								<i class="ui clock icon"></i>
 								<span>
@@ -61,7 +61,7 @@
 								</span>
 							</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="#">服药提醒</a>
+								<a class="dropdown-item" href="todo01.html">服药提醒</a>
 								<a class="dropdown-item" href="#">服药记录</a>
 								<a class="dropdown-item" href="products.html">药品箱</a>
 								<a class="dropdown-item" href="#">智能药盒</a>
@@ -69,30 +69,21 @@
 							</div>
 						</li>
 
-						<!--        <li class="nav-item">
-    				    <a class="nav-link" href="accounts.html">
-    				        <i class="ui user icon"></i>
-    				        个人账户
-    				    </a>
-    				</li> -->
-
 						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+							<a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
 								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								<i class="ui setting icon"></i>
 								<span>
 									设置 <i class="fas fa-angle-down"></i>
 								</span>
 							</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="setting_helping.html">帮助中心</a>
-						    <a class="dropdown-item" href="setting_function_introduction.html">功能介绍</a>
-						    <a class="dropdown-item" href="setting_feedback.html">我要反馈</a>
-						    <a class="dropdown-item" href="setting_about.html">关于我们</a>
-						</div>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="setting_helping.html">帮助中心</a>
+								<a class="dropdown-item" href="setting_function_introduction.html">功能介绍</a>
+								<a class="dropdown-item" href="setting_feedback.html">我要反馈</a>
+								<a class="dropdown-item" href="setting_about.html">关于我们</a>
+							</div>
 						</li>
-
-
 
 					</ul>
 					<ul class="navbar-nav">
@@ -107,37 +98,65 @@
 			</div>
 		</nav>
 
-		<!-- --------------------------TODO01------------------------------ -->
-
-		<div class="app-container" id="taskList" style="
-		margin-bottom: 20%;
-		margin-top:10%;
-		margin-left: 40%;
+		<!-- --------------------------helping------------------------------ -->
 		
-		
-		">
-			<h1 class="app-header">服药提醒</h1>
-			<!-- 选择日期 -->
-			<input type="datetime-local" value="" />
-
-			<!-- 添加待办 -->
-			<div class="add-task">
-				<input type="text" autocomplete="off" placeholder="eg: 每日三次鱼肝油..." v-model="tasks.name"
-					@keyup.enter="newItem" class="task-input" style="height: 33px;">
-				<input type="submit" value="" class="submit-task" @click="newItem" title="Add Task">
-			</div>
-			<ul class="task-list">
-				<li class="task-list-item" v-for="task in tasks">
-					<label class="task-list-item-label">
-						<input type="checkbox">
-						<span>{{task.name}}</span>
-					</label>
-					<span @click="delItem(task)" class="delete-btn" title="Delete Task">{{task.del}}</span>
-				</li>
-			</ul>
+		<div class="ui container center" style="margin-top: 1%;">
+		<h5 class="ui top attached header">
+		   药准时是一款服药管理类系统。 提供服药提醒、服药记录、家人远程服药管理等功能。
+		</h5>
+		<div class="ui attached segment">
+		  <p>比闹钟更简单，比闹钟更强大</p>
 		</div>
+		<h5 class="ui attached header">
+		  智能气泡，服药内容跃入眼帘
+		</h5>
+		<div class="ui attached segment">
+		  <p>无时无刻，智能定位重点信息，一眼抓住所需服药内容.</p>
+		</div>
+		<h5 class="ui attached header">
+		  服药记录 ，心中有数
+		</h5>
+		<div class="ui attached segment">
+		  <p>记住你的每一次服药，让用药有迹可循</p>
+		</div>
+		<h5 class="ui attached header">
+		  拍照代替输入，化繁为简
+		</h5>
+		<div class="ui attached segment">
+		  <p>药品说明、医嘱、处方单，一键拍照保存，无需繁琐输入， 细节一览无余</p>
+		</div>
+		<h5 class="ui attached header">
+		  家人提醒，爱不断线
+		</h5>
+		<div class="ui attached segment">
+		  <p>一键远程服药提醒，免费发起通话，随时随地关心家人服药日常</p>
+		</div>
+		<h5 class="ui attached header">
+		  发现盲点，
+		  针对性提高服药依从性
+		</h5>
+		<div class="ui attached segment">
+		  <p>数据分析报告，
+            快速识别用药盲区，针对性提高坚持服药的比率</p>
+		</div>
+		<h5 class="ui attached header">
+		多终端支持，随时随地轻松同步
+		</h5>
+		<div class="ui attached segment">
+		  <p>支持 PC/iOS/Apple Watch/Android ，服药数据云端储存，一个账号轻松同步，随时随地想看就看</p>
+		</div>
+		<h5 class="ui attached header">
+		智能升级
+		</h5>
+		<div class="ui attached segment">
+		  <p>配合 2016 年德国红点奖智能药盒使用，体验更进一步</p>
+		</div>
+		
+	</div>
+		
 
-		<!-- --------------------------TODO01------------------------------ -->
+		
+		<!-- --------------------------Helping------------------------------ -->
 
 		<footer class="tm-footer row tm-mt-small">
 			<div class="col-12 font-weight-light">
@@ -149,22 +168,11 @@
 			</div>
 		</footer>
 
-<!-- --------------------------------------------------------SCRIPTS---------------------------------------------------------------------- -->
-		<!-- todo01 -->
-		<script src='./js/vue.min.js'></script>
-		<script src="./js/todo01.js"></script>
-		
-		
+		<!-- -----------------------------------SCRIPTS----------------------------------- -->
+
 		<script src="js/jquery-3.3.1.min.js"></script>
 		<!-- https://jquery.com/download/ -->
 		<script src="js/bootstrap.min.js"></script>
 		<!-- https://getbootstrap.com/ -->
-		<script>
-			$(function() {
-				$(".tm-product-name").on("click", function() {
-					window.location.href = "edit-product.html";
-				});
-			});
-		</script>
 	</body>
 </html>

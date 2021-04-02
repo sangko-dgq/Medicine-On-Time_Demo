@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>帮助中心</title>
+		<script src="./css/js/mui.min.js"></script>
+		<link href="./css/css/mui.min.css" rel="stylesheet" />
+		<script type="text/javascript" charset="utf-8">
+			mui.init();
+		</script>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700" />
+		<!-- https://fonts.google.com/specimen/Roboto -->
+		<link rel="stylesheet" href="./css/css/fontawesome.min.css" />
+		<!-- https://fontawesome.com/ -->
+		<link rel="stylesheet" href="./css/css/bootstrap.min.css" />
+		<!-- https://getbootstrap.com/ -->
+		<link rel="stylesheet" href="./css/css/templatemo-style.css">
+
+		<link rel='stylesheet'
+			href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
+		<link rel="stylesheet" type="text/css" href="./act_banner/css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="./act_banner/css/htmleaf-demo.css">
+		<link rel="stylesheet" href="./act_banner/css/style.css">
+		<!-- TODO01 -->
+		<link rel="stylesheet" href="./css/css/style.css">
+
+		<!-- helping -->
+
+	</head>
+
+	<body id="reportsPage">
+		<nav class="navbar navbar-expand-xl">
+			<div class="container h-100">
+				<a class="navbar-brand" href="index.html">
+					<h1 class="tm-site-title mb-0">Medicine On Time</h1>
+				</a>
+				<button class="navbar-toggler ml-auto mr-0" type="button" data-toggle="collapse"
+					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<i class="fas fa-bars tm-nav-icon"></i>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mx-auto h-100">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">
+								<i class="ui bolt icon"></i>
+								主页
+								<span class="sr-only">(current)</span>
+							</a>
+						</li>
+						<li class="nav-item dropdown">
+
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<i class="ui clock icon"></i>
+								<span>
+									健康服药 <i class="fas fa-angle-down"></i>
+								</span>
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="todo01.html">服药提醒</a>
+								<a class="dropdown-item" href="#">服药记录</a>
+								<a class="dropdown-item" href="products.html">药品箱</a>
+								<a class="dropdown-item" href="#">智能药盒</a>
+
+							</div>
+						</li>
+
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<i class="ui setting icon"></i>
+								<span>
+									设置 <i class="fas fa-angle-down"></i>
+								</span>
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="setting_helping.html">帮助中心</a>
+								<a class="dropdown-item" href="setting_function_introduction.html">功能介绍</a>
+								<a class="dropdown-item" href="setting_feedback.html">我要反馈</a>
+								<a class="dropdown-item" href="setting_about.html">关于我们</a>
+							</div>
+						</li>
+
+					</ul>
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link d-block" href="accounts.html">
+								<img class="ui avatar image" src="./images/avatar_demo02.png">
+								<b>Lucy</b>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<!-- --------------------------helping----------------------------- -->
+	
+		<div class="ui fluid large center category search" style="margin-top: 2%;">
+		  <div class="ui icon input">
+		    <input class="prompt" type="text" placeholder="Search helping...">
+		    <i class="search icon"></i>
+		  </div>
+		  <div class="results"></div>
+		</div>
+        <br>
+		<br>
+		<!-- 帮助文档 -->
+		 <ul class=" ui styled accordion center" style="margin-left: auto; margin-right: auto;"> 
+		        <li class="mui-table-view-cell mui-collapse">
+		            <a class="mui-navigate-right" href="#">手机不能正常服药提醒的系统设置问题</a>
+		            <div class="mui-collapse-content">
+						
+		                <p>
+							<h2>安卓手机正常推送服药提醒，需请求以下权限：</h2>
+							<ul>
+							<li>1、APP 自启动权限</li>
+							<li>2、系统通知权限</li>
+							</ul>
+							<p><em>请您在手机系统设置中，允许药准时 APP 获取以上两项权限，可解决手机不能正常接收服药提醒的问题。</em></p>
+							<p>&nbsp;</p>
+						</p>
+		            </div>
+		        </li>
+				<li class="mui-table-view-cell mui-collapse">
+				    <a class="mui-navigate-right" href="#">何时会同步服药记录</a>
+				    <div class="mui-collapse-content">
+						
+				        <p>
+							<p><strong>SIM 卡版智能药盒，在远程管理使用模式下</strong></p>
+							<ul>
+							<li>判定被管理人已服药或者未服药时，均会及时同步服药记录；</li>
+							<li>没有同步的记录，说明服药记录未知，请被管理人检查药盒电量，同时将药盒置于网络信号良好的地带。</li>
+							
+							</ul>
+							<p>&nbsp;</p>
+							<p><strong>智能药盒在蓝牙使用模式下</strong></p>
+							<ul>
+							<li>只要智能药盒和手机处于连接状态，所有记录都会被及时上传（包括开盒记录、服药记录、未知记录）</li>
+							
+							</ul>
+
+						</p>
+				    </div>
+				</li>
+				<li class="mui-table-view-cell mui-collapse">
+				    <a class="mui-navigate-right" href="#">如何添加智能服药和事件时间待办提醒</a>
+				    <div class="mui-collapse-content">
+						
+				        <p>
+							<p><strong>SIM 卡版智能药盒，在远程管理使用模式下</strong></p>
+							<ul>
+							<li>判定被管理人已服药或者未服药时，均会及时同步服药记录；</li>
+							<li>没有同步的记录，说明服药记录未知，请被管理人检查药盒电量，同时将药盒置于网络信号良好的地带。</li>
+							
+							</ul>
+							<p>&nbsp;</p>
+							<p><strong>智能药盒在蓝牙使用模式下</strong></p>
+							<ul>
+							<li>只要智能药盒和手机处于连接状态，所有记录都会被及时上传（包括开盒记录、服药记录、未知记录）</li>
+							
+							</ul>
+				
+						</p>
+				    </div>
+				</li>
+				<li class="mui-table-view-cell mui-collapse">
+				    <a class="mui-navigate-right" href="#">如何设置默认模式为自动清除预购药品</a>
+				    <div class="mui-collapse-content">
+						
+				        <p>
+							<p><strong>SIM 卡版智能药盒，在远程管理使用模式下</strong></p>
+							<ul>
+							<li>判定被管理人已服药或者未服药时，均会及时同步服药记录；</li>
+							<li>没有同步的记录，说明服药记录未知，请被管理人检查药盒电量，同时将药盒置于网络信号良好的地带。</li>
+							
+							</ul>
+							<p>&nbsp;</p>
+							<p><strong>智能药盒在蓝牙使用模式下</strong></p>
+							<ul>
+							<li>只要智能药盒和手机处于连接状态，所有记录都会被及时上传（包括开盒记录、服药记录、未知记录）</li>
+							
+							</ul>
+				
+						</p>
+				    </div>
+				</li>
+				
+				<li class="mui-table-view-cell mui-collapse">
+				    <a class="mui-navigate-right" href="#">无法连接已经绑定的药盒</a>
+				    <div class="mui-collapse-content">
+						
+				        <p>
+							<p><strong>SIM 卡版智能药盒，在远程管理使用模式下</strong></p>
+							<ul>
+							<li>判定被管理人已服药或者未服药时，均会及时同步服药记录；</li>
+							<li>没有同步的记录，说明服药记录未知，请被管理人检查药盒电量，同时将药盒置于网络信号良好的地带。</li>
+							
+							</ul>
+							<p>&nbsp;</p>
+							<p><strong>智能药盒在蓝牙使用模式下</strong></p>
+							<ul>
+							<li>只要智能药盒和手机处于连接状态，所有记录都会被及时上传（包括开盒记录、服药记录、未知记录）</li>
+							
+							</ul>
+				
+						</p>
+				    </div>
+				</li>
+				<li class="mui-table-view-cell mui-collapse">
+				    <a class="mui-navigate-right" href="#">找不到需要添加的药盒</a>
+				    <div class="mui-collapse-content">
+						
+				        <p>
+							<p><strong>SIM 卡版智能药盒，在远程管理使用模式下</strong></p>
+							<ul>
+							<li>判定被管理人已服药或者未服药时，均会及时同步服药记录；</li>
+							<li>没有同步的记录，说明服药记录未知，请被管理人检查药盒电量，同时将药盒置于网络信号良好的地带。</li>
+							
+							</ul>
+							<p>&nbsp;</p>
+							<p><strong>智能药盒在蓝牙使用模式下</strong></p>
+							<ul>
+							<li>只要智能药盒和手机处于连接状态，所有记录都会被及时上传（包括开盒记录、服药记录、未知记录）</li>
+							
+							</ul>
+				
+						</p>
+				    </div>
+				</li>
+				<li class="mui-table-view-cell mui-collapse">
+				    <a class="mui-navigate-right" href="#">如何添加亲情号来管理服药</a>
+				    <div class="mui-collapse-content">
+						
+				        <p>
+							<p><strong>SIM 卡版智能药盒，在远程管理使用模式下</strong></p>
+							<ul>
+							<li>判定被管理人已服药或者未服药时，均会及时同步服药记录；</li>
+							<li>没有同步的记录，说明服药记录未知，请被管理人检查药盒电量，同时将药盒置于网络信号良好的地带。</li>
+							
+							</ul>
+							<p>&nbsp;</p>
+							<p><strong>智能药盒在蓝牙使用模式下</strong></p>
+							<ul>
+							<li>只要智能药盒和手机处于连接状态，所有记录都会被及时上传（包括开盒记录、服药记录、未知记录）</li>
+							
+							</ul>
+				
+						</p>
+				    </div>
+				</li>
+				<li class="mui-table-view-cell mui-collapse">
+				    <a class="mui-navigate-right" href="#">如何设置快速同步</a>
+				    <div class="mui-collapse-content">
+						
+				        <p>
+							<p><strong>SIM 卡版智能药盒，在远程管理使用模式下</strong></p>
+							<ul>
+							<li>判定被管理人已服药或者未服药时，均会及时同步服药记录；</li>
+							<li>没有同步的记录，说明服药记录未知，请被管理人检查药盒电量，同时将药盒置于网络信号良好的地带。</li>
+							
+							</ul>
+							<p>&nbsp;</p>
+							<p><strong>智能药盒在蓝牙使用模式下</strong></p>
+							<ul>
+							<li>只要智能药盒和手机处于连接状态，所有记录都会被及时上传（包括开盒记录、服药记录、未知记录）</li>
+							
+							</ul>
+				
+						</p>
+				    </div>
+				</li>
+				<li class="mui-table-view-cell mui-collapse">
+				    <a class="mui-navigate-right" href="#">如何查看他人的服药记录</a>
+				    <div class="mui-collapse-content">
+						
+				        <p>
+							<p><strong>SIM 卡版智能药盒，在远程管理使用模式下</strong></p>
+							<ul>
+							<li>判定被管理人已服药或者未服药时，均会及时同步服药记录；</li>
+							<li>没有同步的记录，说明服药记录未知，请被管理人检查药盒电量，同时将药盒置于网络信号良好的地带。</li>
+							
+							</ul>
+							<p>&nbsp;</p>
+							<p><strong>智能药盒在蓝牙使用模式下</strong></p>
+							<ul>
+							<li>只要智能药盒和手机处于连接状态，所有记录都会被及时上传（包括开盒记录、服药记录、未知记录）</li>
+							
+							</ul>
+				
+						</p>
+				    </div>
+				</li>
+				<li class="mui-table-view-cell mui-collapse">
+				    <a class="mui-navigate-right" href="#">绑定失败怎么办</a>
+				    <div class="mui-collapse-content">
+						
+				        <p>
+							<p><strong>SIM 卡版智能药盒，在远程管理使用模式下</strong></p>
+							<ul>
+							<li>判定被管理人已服药或者未服药时，均会及时同步服药记录；</li>
+							<li>没有同步的记录，说明服药记录未知，请被管理人检查药盒电量，同时将药盒置于网络信号良好的地带。</li>
+							
+							</ul>
+							<p>&nbsp;</p>
+							<p><strong>智能药盒在蓝牙使用模式下</strong></p>
+							<ul>
+							<li>只要智能药盒和手机处于连接状态，所有记录都会被及时上传（包括开盒记录、服药记录、未知记录）</li>
+							
+							</ul>
+				
+						</p>
+				    </div>
+				</li>
+				<li class="mui-table-view-cell mui-collapse">
+				    <a class="mui-navigate-right" href="#">可以使用电信卡绑定吗</a>
+				    <div class="mui-collapse-content">
+						
+				        <p>
+							<p><strong>SIM 卡版智能药盒，在远程管理使用模式下</strong></p>
+							<ul>
+							<li>判定被管理人已服药或者未服药时，均会及时同步服药记录；</li>
+							<li>没有同步的记录，说明服药记录未知，请被管理人检查药盒电量，同时将药盒置于网络信号良好的地带。</li>
+							
+							</ul>
+							<p>&nbsp;</p>
+							<p><strong>智能药盒在蓝牙使用模式下</strong></p>
+							<ul>
+							<li>只要智能药盒和手机处于连接状态，所有记录都会被及时上传（包括开盒记录、服药记录、未知记录）</li>
+							
+							</ul>
+				
+						</p>
+				    </div>
+				</li>
+				<li class="mui-table-view-cell mui-collapse">
+				    <a class="mui-navigate-right" href="#">智能药盒不提醒怎么办</a>
+				    <div class="mui-collapse-content">
+						
+				        <p>
+							<p><strong>SIM 卡版智能药盒，在远程管理使用模式下</strong></p>
+							<ul>
+							<li>判定被管理人已服药或者未服药时，均会及时同步服药记录；</li>
+							<li>没有同步的记录，说明服药记录未知，请被管理人检查药盒电量，同时将药盒置于网络信号良好的地带。</li>
+							
+							</ul>
+							<p>&nbsp;</p>
+							<p><strong>智能药盒在蓝牙使用模式下</strong></p>
+							<ul>
+							<li>只要智能药盒和手机处于连接状态，所有记录都会被及时上传（包括开盒记录、服药记录、未知记录）</li>
+							
+							</ul>
+				
+						</p>
+				    </div>
+				</li>
+				<li class="mui-table-view-cell mui-collapse">
+				    <a class="mui-navigate-right" href="#">智能药盒卡机问题</a>
+				    <div class="mui-collapse-content">
+						
+				        <p>
+							<p><strong>SIM 卡版智能药盒，在远程管理使用模式下</strong></p>
+							<ul>
+							<li>判定被管理人已服药或者未服药时，均会及时同步服药记录；</li>
+							<li>没有同步的记录，说明服药记录未知，请被管理人检查药盒电量，同时将药盒置于网络信号良好的地带。</li>
+							
+							</ul>
+							<p>&nbsp;</p>
+							<p><strong>智能药盒在蓝牙使用模式下</strong></p>
+							<ul>
+							<li>只要智能药盒和手机处于连接状态，所有记录都会被及时上传（包括开盒记录、服药记录、未知记录）</li>
+							
+							</ul>
+				
+						</p>
+				    </div>
+				</li>
+				
+		    </ul>
+		<!-- --------------------------Helping------------------------------ -->
+
+		<footer class="tm-footer row tm-mt-small">
+			<div class="col-12 font-weight-light">
+				<p class="text-center text-white mb-0 px-4 small">
+					Copyright &copy; <b>2021</b> All rights reserved.
+
+					Design: <a rel="nofollow noopener" href="#" class="tm-footer-link">药准时</a>
+				</p>
+			</div>
+		</footer>
+
+		<!-- -----------------------------------SCRIPTS----------------------------------- -->
+
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<!-- https://jquery.com/download/ -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- https://getbootstrap.com/ -->
+	</body>
+</html>

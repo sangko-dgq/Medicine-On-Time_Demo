@@ -39,9 +39,14 @@ ul {
   max-width: 480px;
   max-height: 100%;
   padding-left: 50%;
-  background-color: #10101d;
+  /* background-color: #10101d; */
   padding: 24px;
   overflow: auto;
+  
+  border-radius: 8px;
+  background: #d3829b;
+  box-shadow: inset 5px 5px 6px #b87187,
+              inset -5px -5px 6px #ee93af;
 }
 
 .app-header {
@@ -82,7 +87,7 @@ ul {
   border-bottom: 1px solid #fff;
   background-color: transparent;
   margin-right: 12px;
-  color: #000000;
+  color: #2d2d2d;
   box-shadow: none;
   border-radius: 0;
 }
@@ -91,9 +96,9 @@ ul {
 }
 
 .task-list-item {
-  background-color: #191933;
-  border-radius: 4px;
-  margin-bottom: 12px;
+  background-color: #CE6F89;
+  border-radius: 10px;
+  margin-bottom: 4px;
   /* display: flex; */
   align-items: center;
   padding: 8px;

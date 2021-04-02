@@ -41,7 +41,7 @@ button:focus {
 }
 .navbar {
   height: 100px;
-  background-color: #567086;
+  background-color: #D3829B;
   padding: 0;
 }
 .navbar .container {
@@ -116,7 +116,7 @@ button:focus {
 .dropdown-menu {
   font-size: 90%;
   color: #fff;
-  background-color: #567086;
+  background-color: #D3829B;
   border-radius: 0;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -136,7 +136,7 @@ button:focus {
 }
 .dropdown-item:focus,
 .dropdown-item:hover {
-  background-color: #567086;
+  background-color: #D3829B;
 }
 .navbar-nav a:hover,
 .navbar-nav a:hover i {
@@ -358,7 +358,7 @@ thead {
 }
 .table td,
 .table th {
-  border-top: 1px solid #415a70;
+  border-top: 1px solid #D3829B;
   padding: 15px 25px;
   vertical-align: middle;
 }
@@ -492,7 +492,7 @@ input[type="checkbox"]:focus {
   color: #9f1321;
 }
 .tm-footer {
-  background-color: #567086;
+  background-color: #D3829B;
   padding-top: 30px;
   padding-bottom: 30px;
   -webkit-box-shadow: 0 -3px 5px 0 rgba(69, 92, 113, 0.59);
@@ -618,7 +618,7 @@ input[type="checkbox"]:focus {
   }
   .nav-link {
     color: #fff;
-    background-color: #567086;
+    background-color: #D3829B;
     padding: 15px;
     flex-direction: row;
   }
